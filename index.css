@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "NEXT-ART";
+    src: url(../fonts/ART_SemiBold.otf);
+}
+
+
+.first-block {
+    background-image: url(image/1.jpeg);
+    background-size: cover;
+    min-height: 985px;
+    max-width: 1920px;
+ 
+ 
+}
+  
+  .header {
+    display: flex;
+    justify-content: center; 
+    padding-top: 16px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .logo {
+   
+    width: 137px;
+    height:72px;  
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    padding: 20px 10px;
+    color: #FDFDFD;
+    font-weight: 600;
+  }
+  .continue{
+    background-color:#1A3E3E;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #FDFDFD;
+    padding: 12px 24px;
+    line-height: 20px;
+  }
+
+  #text{
+    font-family: "NEXT-ART";
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 2%;
+    text-align: start;
+  }
+  .header-block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 550px;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .form-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    backdrop-filter: blur(6px);
+    color: #FFFFFF33;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+  }
