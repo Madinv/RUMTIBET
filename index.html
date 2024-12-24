@@ -15,6 +15,7 @@
     <div class="first-block">
         <div class="header">
           <img src="image/Group 19 2.png" alt="Здесь логотип румтибет"class="logo">
+          <img src="image/img3.png" alt="Здесь кнопка румтибет"class="logo2">
   
           <ul class="links">
             <li><a href="google.com">Главная</a></li>
@@ -29,34 +30,37 @@
           </span>
         </div>
         <div class="header-block">
-        <div> <h1 id="text">Насладись прогулкой в горах с командой единомышленников</h1></div>
-            <div class="form-block">
+
+        <div class="text">Насладись прогулкой в горах с командой единомышленников</div>
+
             <div class="form">
+
                 <div action="#" method="get" class="register-form">
-                <div>
-             
-            <div> <input type="email" name="email" class="main-input" required placeholder="Локация для тура"></div>
-            <label for="user_email">выберите из списка</label>
+
+            <div class="input-block"> <input type="text" name="text" class="main-input" required placeholder="Локация для тура">
+            <label for="text">выберите из списка</label>
              </div>
-             <img src="image/Vector.png" alt="Значок" class="img3">
-             <div>
-           
-             <div><input type="password" name="password" class="main-input" min="6" max="20" required placeholder="Дата похода"></div>
-             <label for="user_password">укажите диапазон</label>
+
+             <img src="image/Vector.png" alt="Значок" class="img1">
+
+             <div class="input-block"><input type="date" name="date" class="main-input" min="6" max="20" required placeholder="Дата похода">
+             <label for="date">укажите диапазон</label>
             </div>
-            <img src="image/date.png" alt="Значок" class="img3">
-            <div>
-               
-            <div><input type="email" name="email" class="main-input" required placeholder="Участники"></div>
-            <label for="user_email">минимум 4 человека</label>
+
+            
+
+            <div class="input-block"><input type="number" name="number" class="main-input" min="4"required placeholder="Участники"/>
+                <label for="number">минимум 4 человека</label>
+            </div>
+          
+            <div> <button type="submit" class="register-button">Найти программу</button></div>
+           </div>
            
-        
-           <div> <button type="submit" class="register-button">Найти программу</button></div>
-               
-        </div>
-    </div>
          </form>
+        
+
         </div> 
-        </div>
+    </div>
+ </div>
 </body>
 </html>
