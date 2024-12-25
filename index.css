@@ -3,6 +3,10 @@
     src: url(../fonts/ART_SemiBold.otf);
 }
 
+:root{
+    --primary-color:#FDFDFD;
+}
+
 body {
     margin: 0;
 }
@@ -10,9 +14,6 @@ body {
 .first-block {
     background-image: url(image/1.jpeg);
     background-size: cover;
-    min-height: 985px;
-    max-width: 1920px;
-    margin: 0;
 }
   
   .header {
@@ -20,11 +21,13 @@ body {
     justify-content: center; 
     padding-top: 16px;
     font-family: "Nunito Sans", sans-serif;
+    max-height: 985px;
+    max-width: 1920px;
   }
   .logo {
    
-    width: 137px;
-    height:72px;  
+    max-width: 137px;
+    max-height:72px;  
   }
   
   ul {
@@ -32,6 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    
   }
   
   a {
@@ -39,14 +43,14 @@ body {
     font-size: 18px;
     margin: 10px;
     padding: 20px 10px;
-    color: #FDFDFD;
+    color:var(--primary-color);
     font-weight: 600;
   }
   .continue{
     background-color:#1A3E3E;
     border-radius: 4px;
     font-size: 18px;
-    color: #FDFDFD;
+    color:var(--primary-color);
     padding: 10px 20px;
     line-height: 20px;
   }
@@ -54,11 +58,12 @@ body {
   .text{
     font-family: "NEXT-ART";
     font-weight: 700;
-    color: #FDFDFD;
+    color:var(--primary-color);
     font-size: 50px;
     line-height: 75px;
     letter-spacing: 2%;
     text-align: center;
+    margin: 30px;
   }
   .header-block{
     display: flex;
@@ -77,7 +82,7 @@ body {
     line-height: 24px;
     font-weight: 700;
     font-family: "Nunito Sans", sans-serif;
-    color: #FDFDFD;
+    color:var(--primary-color);
 
   }
   .input-block {
@@ -85,7 +90,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #FDFDFD;
+    color:var(--primary-color);
   }
   .main-input{
     padding: 10px;
@@ -94,7 +99,7 @@ body {
     position: relative;
     max-width: 270px;
     background-color: #FFFFFF33;
-    color: #FDFDFD;
+    
   }
 
   .register-form{
@@ -103,18 +108,19 @@ body {
     justify-content: space-between;
     backdrop-filter: blur(6px);
     background-color: #FFFFFF33;
-    min-width: 1180px;
-    padding: 10px 10px;
+    max-width: 1180px;
+    padding: 10px;
     border-radius: 10px;
+    margin-bottom: 50px;
    
 }
 .register-button{
-    background-color: #FDFDFD;
+    background-color:var(--primary-color);
     color: #1A3E3E;
     padding: 10px;
     margin: 10px;
-    width: 210px;
-    height: 50px;
+    max-width: 210px;
+    max-height: 50px;
     border-radius: 8px;
     text-align: center;
 }
