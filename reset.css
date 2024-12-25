@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+   
+    .links {
+        display: none;
+      }
+      .continue{
+        display: none;
+      }
+      
+      .img1 {
+        display: none;
+      }
+      .img2 {
+        display: none;
+      }
+
+      .input-block {
+        display: none;
+      }
+    }
+  @media screen and (min-width: 480px) {
+    .logo2 {
+        display: none;
+    }
+}
+
+

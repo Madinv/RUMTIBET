@@ -1,0 +1,37 @@
+@media screen and (max-width: 480px) {
+    .text {
+      font-size: 2rem;
+      text-align: start;
+      line-height: 3rem;
+      padding:1em 3em;
+      display: flex;
+      text-wrap: wrap;
+    }
+   
+      .header{
+        display: flex;
+        justify-content: start;
+        padding-left: 2em;
+      }
+      
+      .logo2{
+        position: absolute;
+        right: 1em;
+        max-width: 20%;
+        max-height: 18%;
+      }
+      .logo{
+        max-width: 80%;
+        max-height: 5%;
+      }
+
+      .register-form{
+        display: block;
+        backdrop-filter: none;
+        background-color: transparent;
+        min-width: 100%;
+        max-height: 100%;
+        
+    }
+}
+
