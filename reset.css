@@ -20,6 +20,22 @@
       .img2{
         display: none;
       }
+      /* .travel-block1{
+        display: none;
+      }
+      .travel-block2{
+        display: none;
+      } */
+
+       .content-img{
+        display: none;
+       }
+       .seventh-block{
+        display: none;
+       }
+       /* .grid-img{
+        display: none;
+       } */
     }
   @media screen and (min-width: 480px) {
     .logo2 {
